@@ -10,3 +10,13 @@
     background-color: #422ad5;
     color: white;
 }
+
+.faq-item.faq-active .plus-icon {
+    transform: rotate(45deg);
+    background-color: #c5e2f0;
+    color: #1b5e7a;
+}
+
+.faq-item.faq-active .answer-panel {
+    max-height: 200px;
+}
