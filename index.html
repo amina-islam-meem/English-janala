@@ -33,15 +33,26 @@
       <ul
         tabindex="-1"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
+
         <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+             <a href="#faq-section" class="btn btn-outline btn-primary w-full justify-start">
+                  <i class="fa-solid fa-circle-question"></i>FAQ
+             </a>
+         </li>
+
+        <li class="mt-2">
+             <a href="#learn-section" class="btn btn-outline btn-primary w-full justify-start">
+                <i class="fa-solid fa-book-open"></i>Learn
+              </a>
         </li>
-        <li><a>Item 3</a></li>
+
+
+         <li class="mt-2">
+              <a href="#" class="btn btn-outline btn-primary w-full justify-start">
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>Logout
+               </a>
+        </li>
+
       </ul>
     </div>
     <a href="" class="flex items-center gap-1">
@@ -53,11 +64,11 @@
   <div class="navbar-end hidden lg:flex">
     <ul class="menu menu-horizontal px-1 space-x-4">
       <li>
-        <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</a>
+        <a href="#faq-section" class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</a>
       </li>
 
       <li>
-        <a href="" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</a>
+        <a href="#learn-section" class="btn btn-outline btn-primary"><i class="fa-solid fa-book-open"></i>Learn</a>
       </li>
 
       <li>
@@ -87,7 +98,7 @@
     </section>
 
     <!-- learn section -->
-    <section>
+    <section id="learn-section">
       <h2 class="text-4xl font-bold mb-8 text-center"><span class="text-[#00BCFF]">Let's </span>Learn vocabularies</h2>
 
       <div id="level-btn" class="flex gap-5 flex-wrap justify-center">
@@ -125,7 +136,8 @@
   </div>
 </dialog>
 
-<section class="faq-container max-w-6xl mx-auto my-16 px-6 mt-50 mb-50">
+<!-- FAQ -->
+<section  id="faq-section" class="faq-container max-w-6xl mx-auto my-16 px-6 mt-50 mb-50">
         <h2 class="text-4xl font-bold mb-8 text-center"><span class="text-[#00BCFF]">Frequently </span>Asked Questions</h2>
 
         <div class="faq-list flex flex-col gap-4 mt-10">
